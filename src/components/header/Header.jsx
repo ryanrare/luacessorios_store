@@ -3,6 +3,13 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Grid';
 
+import HomeIcon from '@mui/icons-material/Home'; // Ícone para "Home"
+import FavoriteIcon from '@mui/icons-material/Favorite'; // Ícone para "Favoritos"
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'; // Ícone para "Meu carrinho"
+import HelpIcon from '@mui/icons-material/Help'; // Ícone para "Para Ajuda"
+import PersonIcon from '@mui/icons-material/Person'; // Ícone para "Perfil"
+
+
 const Header = () => {
   return (
     <header>
@@ -12,13 +19,13 @@ const Header = () => {
             <Grid item>
               <h1>Luacessorios</h1>
             </Grid>
-            <Grid item sx={{ marginRight: 2 }}>
-              <Stack direction="row" spacing={2}>
-                <Button href="/">Home</Button>
-                <Button href="/products">Produtos</Button>
-                <Button href="/promocoes">promocoes</Button>
-                <Button href="/cart">Carrinho</Button>
-                <Button href="/ajuda">Ajuda</Button>
+            <Grid item sx={{ marginRight: 1 }}>
+              <Stack direction="row" spacing={1 }>
+                <Button href="/" startIcon={<HomeIcon />}>Home</Button>
+                <Button href="/profile" variant="contained" startIcon={<PersonIcon />}>Perfil</Button>
+                <Button href="/promotions" variant="contained" startIcon={<FavoriteIcon />}>Favoritos</Button>
+                <Button href="/cart" variant="contained" startIcon={<ShoppingCartIcon />}>Meu carrinho</Button>
+                <Button href="/help" variant="contained" startIcon={<HelpIcon />}>Para Ajuda</Button>
               </Stack>
             </Grid>
           </Grid>
