@@ -35,20 +35,20 @@ function HeaderFooter() {
 
   return (
     <Grid container justifyContent="space-between" alignItems="center">
-        <Grid item>
-            <Breadcrumbs aria-label="breadcrumb">
-                <StyledBreadcrumb
-                    component="a"
-                    href="#"
-                    label="Todas Categorias"
-                    icon={<ExpandMoreIcon fontSize="small" />}
-                />
-                <StyledBreadcrumb component="a" href="#" label="Catalog" />
-                <StyledBreadcrumb component="a" href="#" label="Catalog" />
-                <StyledBreadcrumb component="a" href="#" label="Catalog" />
-            </Breadcrumbs>
-        </Grid>
-        <Grid item>
+      <Grid item>
+        <Breadcrumbs aria-label="breadcrumb">
+          <StyledBreadcrumb
+            component="a"
+            href="#"
+            label="Todas Categorias"
+            icon={<ExpandMoreIcon fontSize="small" />}
+          />
+          <StyledBreadcrumb component="a" href="#" label="Catalog" />
+          <StyledBreadcrumb component="a" href="#" label="Catalog" />
+          <StyledBreadcrumb component="a" href="#" label="Catalog" />
+        </Breadcrumbs>
+      </Grid>
+      <Grid item>
         <Breadcrumbs aria-label="breadcrumb">
           <StyledBreadcrumb component="a" href="#" label="Catalog" />
           <StyledBreadcrumb

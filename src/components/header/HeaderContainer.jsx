@@ -9,22 +9,21 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'; // Ícone para 
 import PersonIcon from '@mui/icons-material/Person'; // Ícone para "Perfil"
 
 
-
 const HeaderContainer = () => {
   return (
     <div className="container">
       <nav>
         <Grid container justifyContent="space-between" alignItems="center">
-            <Grid item> 
-              <Button href="/" startIcon={<HomeIcon />}>Luacessorios</Button>
-            </Grid>
-            <Grid item sx={{ marginRight: 1 }}>
-              <Stack direction="row" spacing={1 }>
-                  <Button href="/profile" variant="contained" startIcon={<PersonIcon />}>Perfil</Button>
-                  <Button href="/promotions" variant="contained" startIcon={<FavoriteIcon />}>Favoritos</Button>
-                  <Button href="/cart" variant="contained" startIcon={<ShoppingCartIcon />}>Meu carrinho</Button>
-              </Stack>
-            </Grid>
+          <Grid item> 
+            <Button href="/" startIcon={<HomeIcon />}>Luacessorios</Button>
+          </Grid>
+          <Grid item sx={{ marginRight: 1 }}>
+            <Stack direction="row" spacing={1 }>
+              <Button href="/profile" variant="contained" startIcon={<PersonIcon />}>Perfil</Button>
+              <Button href="/promotions" variant="contained" startIcon={<FavoriteIcon />}>Favoritos</Button>
+              <Button href="/cart" variant="contained" startIcon={<ShoppingCartIcon />}>Meu carrinho</Button>
+            </Stack>
+          </Grid>
         </Grid>
       </nav>
     </div>
