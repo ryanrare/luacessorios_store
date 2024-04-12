@@ -1,8 +1,6 @@
 import React from 'react';
-import CustomizedBreadcrumbs from './HeaderFooter';
+import HeaderFooter from './HeaderFooter';
 import HeaderContainer from './HeaderContainer';
-
-
 
 
 const Header = () => {
@@ -11,7 +9,7 @@ const Header = () => {
       <div className="container">
         <nav>
           <HeaderContainer / >
-          <CustomizedBreadcrumbs / >
+          <HeaderFooter / >
         </nav>
       </div>
     </header>

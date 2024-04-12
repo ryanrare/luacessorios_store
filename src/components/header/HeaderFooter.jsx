@@ -28,7 +28,7 @@ const StyledBreadcrumb = styled(Chip)(({ theme }) => {
   };
 });
 
-function CustomizedBreadcrumbs() {
+function HeaderFooter() {
   const handleClick = () => {
     // Implemente a lógica de manipulação do clique aqui, se necessário
   };
@@ -62,4 +62,4 @@ function CustomizedBreadcrumbs() {
   );
 }
 
-export default CustomizedBreadcrumbs;
+export default HeaderFooter;
