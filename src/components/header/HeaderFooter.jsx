@@ -6,7 +6,6 @@ import Grid from '@mui/material/Grid';
 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
-// import { Grid } from '@mui/material';
 
 const StyledBreadcrumb = styled(Chip)(({ theme }) => {
   const backgroundColor =
@@ -41,10 +40,10 @@ function HeaderFooter() {
             component="a"
             href="#"
             label="Todas Categorias"
-            icon={<ExpandMoreIcon fontSize="small" />}
+            icon={<DensityMediumIcon fontSize="small" />}
           />
-          <StyledBreadcrumb component="a" href="#" label="Catalog" />
-          <StyledBreadcrumb component="a" href="#" label="Catalog" />
+          <StyledBreadcrumb component="a" href="#" label="Promoções" />
+          <StyledBreadcrumb component="a" href="#" label="Fidelidade" />
           <StyledBreadcrumb component="a" href="#" label="Catalog" />
         </Breadcrumbs>
       </Grid>
