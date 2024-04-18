@@ -28,7 +28,7 @@ const HeaderContainer = () => {
               sx={{
                 display: 'flex',
                 alignItems: 'center',
-                '& > :not(style)': { mr: 1 },
+                '& > :not(style)': { mr: 0 },
               }}
               noValidate
               autoComplete="off"
